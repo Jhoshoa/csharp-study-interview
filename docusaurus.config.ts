@@ -8,11 +8,11 @@ const config: Config = {
   tagline: 'Master C# and .NET for Technical Interviews',
   favicon: 'img/favicon.ico',
 
-  url: 'https://josoe.github.io',
-  baseUrl: '/C-study-interview/',
+  url: 'https://jhoshoa.github.io',
+  baseUrl: '/csharp-study-interview/',
 
-  organizationName: 'josoe',
-  projectName: 'C-study-interview',
+  organizationName: 'jhoshoa',
+  projectName: 'csharp-study-interview',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -32,7 +32,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/josoe/C-study-interview/tree/main/',
+          editUrl: 'https://github.com/jhoshoa/csharp-study-interview/tree/main/',
           remarkPlugins: [remarkSimplePlantuml],
         },
         blog: false,
@@ -59,7 +59,7 @@ const config: Config = {
           label: 'Study Materials',
         },
         {
-          href: 'https://github.com/josoe/C-study-interview',
+          href: 'https://github.com/jhoshoa/csharp-study-interview',
           label: 'GitHub',
           position: 'right',
         },
