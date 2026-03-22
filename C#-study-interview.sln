@@ -2,15 +2,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "projects", "projects", "{17245595-230B-9055-A944-863F0DDDA8E8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{17245595-230B-9055-A944-863F0DDDA8E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-BasicConsoleApps", "01-BasicConsoleApps", "{C5562A39-36BB-8D70-F40A-D45AF69A1AB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPractice", "projects\01-BasicConsoleApps\CSharpPractice\CSharpPractice.csproj", "{B877F003-9772-BEEF-227E-C202E238EDF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPractice", "Projects\01-BasicConsoleApps\CSharpPractice\CSharpPractice.csproj", "{B877F003-9772-BEEF-227E-C202E238EDF2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-WebAPI-Projects", "02-WebAPI-Projects", "{EBCE9E10-B80F-AFB0-EB53-B9D20568D616}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebAPI", "projects\02-WebAPI-Projects\SampleWebAPI\SampleWebAPI.csproj", "{7E3414B2-1AF0-17F2-8CD4-6FFAD6B1EA66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebAPI", "Projects\02-WebAPI-Projects\SampleWebAPI\SampleWebAPI.csproj", "{7E3414B2-1AF0-17F2-8CD4-6FFAD6B1EA66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
