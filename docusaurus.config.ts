@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import remarkSimplePlantuml from '@akebifiky/remark-simple-plantuml';
 
 const config: Config = {
   title: 'C# Interview Study Guide',
@@ -32,6 +33,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/josoe/C-study-interview/tree/main/',
+          remarkPlugins: [remarkSimplePlantuml],
         },
         blog: false,
         theme: {
