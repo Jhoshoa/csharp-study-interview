@@ -1,0 +1,72 @@
+/**
+ * Custom CSS for C# Study Guide
+ */
+
+:root {
+  --ifm-color-primary: #6a1b9a;
+  --ifm-color-primary-dark: #5c1786;
+  --ifm-color-primary-darker: #56167e;
+  --ifm-color-primary-darkest: #471268;
+  --ifm-color-primary-light: #7a1fae;
+  --ifm-color-primary-lighter: #8021b6;
+  --ifm-color-primary-lightest: #9426cc;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(106, 27, 154, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #b388ff;
+  --ifm-color-primary-dark: #9f66ff;
+  --ifm-color-primary-darker: #9555ff;
+  --ifm-color-primary-darkest: #7422ff;
+  --ifm-color-primary-light: #c7aaff;
+  --ifm-color-primary-lighter: #d1bbff;
+  --ifm-color-primary-lightest: #f0e6ff;
+  --docusaurus-highlighted-code-line-bg: rgba(179, 136, 255, 0.2);
+}
+
+/* Hero section styles */
+.hero {
+  padding: 4rem 0;
+}
+
+.hero__title {
+  font-size: 3rem;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+}
+
+/* Feature cards */
+.feature-card {
+  padding: 2rem;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Code blocks */
+.prism-code {
+  border-radius: 8px;
+}
+
+/* Sidebar improvements */
+.menu__link {
+  border-radius: 4px;
+}
+
+/* Better mobile experience */
+@media (max-width: 996px) {
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1.2rem;
+  }
+}

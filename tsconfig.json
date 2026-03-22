@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "lib": ["DOM", "DOM.Iterable", "ES2020"],
+    "baseUrl": ".",
+    "paths": {
+      "@site/*": ["./*"],
+      "@docusaurus/*": ["./node_modules/@docusaurus/*"]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "docs/**/*",
+    "docusaurus.config.ts",
+    "sidebars.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    ".docusaurus",
+    "projects"
+  ]
+}

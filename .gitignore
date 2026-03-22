@@ -78,3 +78,14 @@ Desktop.ini
 *.local
 appsettings.*.local.json
 secrets.json
+
+# Node.js / Docusaurus
+node_modules/
+build/
+.docusaurus/
+.cache-loader/
+package-lock.json
+yarn.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
