@@ -66,6 +66,9 @@ lcov.info
 # Claude Code local settings
 .claude/
 
+# Local instructions (not for repo)
+GITHUB_SETUP_INSTRUCTIONS.md
+
 # OS generated files
 .DS_Store
 .DS_Store?
