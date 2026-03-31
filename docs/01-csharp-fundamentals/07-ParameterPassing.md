@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # Parameter Passing in C# - The Complete Picture
 
 ## The Core Concept

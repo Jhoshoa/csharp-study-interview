@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # C# Type System - Deep Dive
 
 ## The Foundation: Everything is an Object (Almost)

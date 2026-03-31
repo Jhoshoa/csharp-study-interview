@@ -1,3 +1,8 @@
+---
+displayed_sidebar: cansatSidebar
+sidebar_position: 0
+---
+
 # C# Fundamentals - Senior Level
 
 ## Study Order

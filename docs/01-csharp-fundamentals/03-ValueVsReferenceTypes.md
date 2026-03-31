@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Value Types vs Reference Types - The Complete Picture
 
 ## The Fundamental Difference

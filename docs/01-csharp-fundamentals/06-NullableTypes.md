@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Nullable Types - Complete Guide
 
 ## Two Different "Nullable" Concepts

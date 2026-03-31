@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Strings in C# - Deep Dive
 
 ## The Unique Nature of Strings

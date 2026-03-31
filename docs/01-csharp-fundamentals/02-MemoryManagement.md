@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Memory Management in .NET - Stack, Heap & GC
 
 ## Overview: Where Does Memory Live?
