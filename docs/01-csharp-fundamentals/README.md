@@ -1,5 +1,4 @@
 ---
-displayed_sidebar: cansatSidebar
 sidebar_position: 0
 ---
 

@@ -15,12 +15,13 @@ const config: Config = {
   projectName: 'csharp-study-interview',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  onBrokenMarkdownLinks: 'warn',
 
   markdown: {
     format: 'md',
